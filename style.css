@@ -1,7 +1,9 @@
 * {
-    font-family: system-ui;
+  font-family: system-ui;
 }
 
 body {
-    background-color: pink;
+  background-color: #1b1b29;
+  color: #e8cfd7;
+  scrollbar-highlight-color: pink;
 }

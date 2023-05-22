@@ -8,19 +8,25 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#section1">Human Instrumentality</a>
-                </li>
-                <li>
-                    <a href="#section2">The End Of The World</a>
-                </li>
-                <li>
-                    <a href="#section3">The Man Who Sold The World</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <h1>Bless you</h1>
+            <p>myWeb is a website that contains articles about the universe</p>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#section1">Human Instrumentality</a>
+                    </li>
+                    <li>
+                        <a href="#section2">The End Of The World</a>
+                    </li>
+                    <li>
+                        <a href="#section3">The Man Who Sold The World</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="container">
@@ -46,26 +52,27 @@
             </section>
         </div>
         <div>
-            <form>
+            <form onsubmit="submitForm()">
                 <h3>Contact Me</h3>
                 <div>
                     <label for="nama">Nama</label>
-                    <input type="text" name="" id="nama" placeholder="nama anda" required />
+                    <input type="text" id="nama" placeholder="nama anda" required />
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input type="text" name="" id="email" placeholder="email anda" required />
+                    <input type="text" id="email" placeholder="email anda" required />
                 <div>
                     <label for="pesan">Pesan</label>
-                    <input type="text" name="" id="pesan" placeholder="pesan anda" required />
+                    <textarea type="text" id="pesan" placeholder="pesan anda" required/></textarea>
                 </div>
                 <input type="submit" value="kirim pesan" required>
-
             </form>
         </div>
+
+        <script src="script.js"></script>
     </main>
     <footer>
-        <p>Created by <a href="https://fzhnf.github.io">UYU YUYU</a></p>
+        <p>Created by <a href="https://fzhnf.github.io">uyu yuyu hapi hapi hapi</a></p>
     </footer>
 </body>
 </html>
