@@ -1,32 +1,28 @@
-* {
-  font-family: system-ui;
-}
-
 body {
+  font-family: system-ui;
   background-color: #1b1b29;
   color: #e8cfd7;
+}
+
+textarea,
+input {
+  background-color: #e8cfd7;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 1px;
 }
 
 a:link {
   color: #ef956d;
 }
 
-a:hover {
-  color: #f7d6e0;
-}
-
 a:visited {
   color: #cba6f7;
 }
 
-header h1,
-header p {
+header {
   text-align: center;
-}
-
-header img {
-  max-width: 100%;
-  height: auto;
 }
 
 main {
@@ -39,7 +35,6 @@ main {
 aside {
   float: right;
   width: 30%;
-  margin-left: 2%;
 }
 
 section {
@@ -53,6 +48,6 @@ article {
 
 footer {
   clear: both;
-  text-align: justify;
+  text-align: center;
   padding: 2em;
 }
